@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\PII_WhatsAppApiUCU-master\WhatsAppApiUCU.csproj" />
+    <ProjectReference Include="..\..\..\PII_TwitterApi-master\src\Library\Library.csproj" />
+  </ItemGroup>
+</Project>
