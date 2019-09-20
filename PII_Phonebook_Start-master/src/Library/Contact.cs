@@ -2,7 +2,6 @@
 {
          public class Contact
          {
-                  // tenia solo name de parametro
                   public Contact(string name, string phone, string idTwitter)
                   {
                            this.name = name;
@@ -10,7 +9,6 @@
                            this.idTwitter = idTwitter;
                   }
 
-                  // encapsule algunos atributos
                   private string name;
                   private string idTwitter;
                   private string phone;
