@@ -12,7 +12,7 @@ namespace WhatsAppApiUCU
             const string authToken = "fdcaac12dc7e5b031908429ee402e7a4";
 
             var whatsApp = new WhatsAppApi(accountSid, authToken);
-            string sid = whatsApp.Send("+598<Poné tu teléfono acá>", "Hey there! I'm using WhatsAppUCU");
+            string sid = whatsApp.Send("+59898396922", "dale bo trabaja");
             Console.WriteLine(sid);
         }
     }
